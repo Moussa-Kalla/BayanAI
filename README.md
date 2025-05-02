@@ -13,56 +13,50 @@ startup spécialisée dans la Data et l'IA, offrant des solutions innovantes pou
 ```bash
 BayanAI
 ├── .github
-    └── workflows
-        └── node.js.yml
+│   └── workflows
+│       └── node.js.yml
 ├── .gitignore
-├── README copy.md
-├── README.md
 ├── assets
-├── dist
-    ├── _redirects
-    ├── assets
-    │   ├── index-Bfu_sbKv.css
-    │   └── index-Dt5tiTmm.js
-    ├── favicon.svg
-    └── index.html
+│   └── ... 
 ├── eslint.config.js
 ├── index.html
-├── package-lock.json
 ├── package.json
 ├── postcss.config.js
 ├── public
-    ├── _redirects
-    └── favicon.svg
+│   ├── _redirects
+│   └── favicon.svg
+├── README.md
 ├── src
-    ├── App.tsx
-    ├── components
-    │   ├── ContactForm.tsx
-    │   ├── Footer.tsx
-    │   ├── LanguageSwitch.tsx
-    │   ├── Navbar.tsx
-    │   ├── ThemeSwitch.tsx
-    │   ├── WhatsAppButton.tsx
-    │   └── icons
-    │   │   ├── BayanAILogo.tsx
-    │   │   └── WhatsAppLogo.tsx
-    ├── hooks
-    │   └── useTheme.ts
-    ├── i18n
-    │   ├── index.ts
-    │   └── locales
-    │   │   ├── en.json
-    │   │   └── fr.json
-    ├── index.css
-    ├── main.tsx
-    ├── pages
-    │   ├── About.tsx
-    │   ├── Blog.tsx
-    │   ├── CaseStudies.tsx
-    │   ├── Contact.tsx
-    │   ├── Home.tsx
-    │   └── Services.tsx
-    └── vite-env.d.ts
+│   ├── App.tsx
+│   ├── components
+│   │   ├── ContactForm.tsx
+│   │   ├── CookieManager.tsx
+│   │   ├── Footer.tsx
+│   │   ├── LanguageSwitch.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── ThemeSwitch.tsx
+│   │   └── icons
+│   │       ├── BayanAILogo.tsx
+│   │       └── WhatsAppLogo.tsx
+│   ├── hooks
+│   │   ├── useCookie.ts
+│   │   └── useTheme.ts
+│   ├── i18n
+│   │   ├── index.ts
+│   │   └── locales
+│   │       ├── en.json
+│   │       └── fr.json
+│   ├── index.css
+│   ├── main.tsx
+│   ├── pages
+│   │   ├── About.tsx
+│   │   ├── Blog.tsx
+│   │   ├── CaseStudies.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Home.tsx
+│   │   ├── PolitiqueConfidentialite.tsx
+│   │   └── Services.tsx
+│   └── vite-env.d.ts
 ├── tailwind.config.js
 ├── tsconfig.app.json
 ├── tsconfig.json
