@@ -67,7 +67,7 @@ const CaseStudies = () => {
       client: "PME artisanales",
       description: "Création d'une plateforme e-commerce utilisant le machine learning pour recommander des produits aux clients en fonction de leurs préférences, augmentant ainsi les ventes des artisans locaux.",
       results: ["Augmentation de 25% des ventes en ligne", "Amélioration de l'engagement client"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/EcommerceArtisanatNiger.png?raw=true"
+      image: "./assets/EcommerceArtisanatNiger.png"
     },
     {
       id: "gestion-stocks",
@@ -75,7 +75,7 @@ const CaseStudies = () => {
       client: "Petits commerces de détail",
       description: "Mise en place d'un système basé sur l'IA pour prévoir la demande de produits, optimiser les niveaux de stock et réduire les ruptures ou les surplus.",
       results: ["Réduction de 30% des ruptures de stock", "Diminution de 20% des coûts liés au surstockage"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/GestionStockNiger.png?raw=true"
+      image: "./assets/GestionStockNiger.png"
     },
     {
       id: "gestion-financiere",
@@ -83,7 +83,7 @@ const CaseStudies = () => {
       client: "PME locales",
       description: "Développement d'une application mobile permettant aux PME de suivre leurs finances en temps réel, avec des tableaux de bord interactifs et des analyses prédictives pour une meilleure prise de décision.",
       results: ["Amélioration de 40% de la visibilité financière", "Prise de décision accélérée pour les investissements"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/GestionFinancierePME.png?raw=true"
+      image: "./assets/GestionFinancierePME.png"
     },
     {
       id: "optimisation-livraison",
@@ -91,7 +91,7 @@ const CaseStudies = () => {
       client: "Start-ups de livraison locales",
       description: "Développement d'une application mobile intégrant des algorithmes d'IA pour optimiser les itinéraires de livraison en temps réel, réduire les délais et améliorer la satisfaction client.",
       results: ["Réduction de 20% des temps de livraison", "Augmentation de 15% de la satisfaction client"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/OptimisationLivraisonNiger.png?raw=true"
+      image: "./assets/OptimisationLivraisonNiger.png"
     },
     {
       id: "gestion-tontines",
@@ -103,7 +103,7 @@ const CaseStudies = () => {
         "Amélioration de l'engagement des membres grâce à des rappels automatisés",
         "Optimisation des cycles de collecte basés sur les données historiques"
       ],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/PlateformeTontineNiger.png?raw=true"
+      image: "./assets/PlateformeTontineNiger.png"
     },
     {
       id: "optimisation-agricole",
@@ -111,7 +111,7 @@ const CaseStudies = () => {
       client: "Ministère de l'Agriculture du Niger",
       description: "Mise en place d'un système d'analyse prédictive pour optimiser les rendements agricoles en utilisant des données sur les sols, la météo et les rendements historiques.",
       results: ["Augmentation de 20% des rendements agricoles", "Amélioration de la sécurité alimentaire"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/OptimisationAgricoleNiger.png?raw=true"
+      image: "./assets/OptimisationAgricoleNiger.png"
     },
     {
       id: "apprentissage-personnalise",
@@ -119,7 +119,7 @@ const CaseStudies = () => {
       client: "Ministère de l'Éducation du Niger",
       description: "Développement d'un système d'apprentissage personnalisé basé sur l'IA pour adapter le contenu éducatif aux besoins individuels des étudiants.",
       results: ["Amélioration de 30% des résultats scolaires", "Engagement accru des étudiants"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/ApprentissagePersonnaliséEcole.png?raw=true"
+      image: "./assets/ApprentissagePersonnaliséEcole.png"
     },
     {
       id: "telemedecine",
@@ -127,7 +127,7 @@ const CaseStudies = () => {
       client: "Ministère de la Santé du Niger",
       description: "Déploiement d'un système de télémédecine alimenté par l'IA pour connecter les patients des zones rurales avec des médecins à distance.",
       results: ["Amélioration de l'accès aux soins pour 50% des patients ruraux", "Réduction de la charge sur les établissements de santé"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/ConsultationMédicaleVirtuelle.png?raw=true"
+      image: "./assets/ConsultationMédicaleVirtuelle.png"
     },
     {
       id: "logistique-medicale",
@@ -135,7 +135,7 @@ const CaseStudies = () => {
       client: "Organisation Non Gouvernementale (ONG)",
       description: "Utilisation de l'analyse prédictive pour optimiser la livraison de médicaments et de fournitures médicales dans les zones reculées.",
       results: ["Réduction de 25% des délais de livraison", "Amélioration de la disponibilité des médicaments"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/OptimisationLogistiqueMédicale.png?raw=true"
+      image: "./assets/OptimisationLogistiqueMédicale.png"
     },
     {
       id: "chatbots-service-client",
@@ -143,7 +143,7 @@ const CaseStudies = () => {
       client: "Entreprise de Commerce Électronique",
       description: "Déploiement de chatbots intelligents pour améliorer l'expérience client et automatiser les requêtes courantes.",
       results: ["Traitement de 70% des requêtes clients", "Satisfaction client améliorée de 40%"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/ChatbotspourleServiceClient.png?raw=true"
+      image: "./assets/ChatbotspourleServiceClient.png"
     },
     {
       id: "analyse-predictive-nigelec",
@@ -151,7 +151,7 @@ const CaseStudies = () => {
       client: "Société Nigérienne d'Électricité (NIGELEC)",
       description: "Utilisation de l'analyse prédictive basée sur de l'intelligence artificielle pour optimiser la gestion de l'approvisionnement en énergie et prévenir les pannes.",
       results: ["Réduction de 25% des coupures d'électricité", "Amélioration de la fiabilité de l'approvisionnement en électricité"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/SociétéNigérienned'Électricité(NIGELEC).png?raw=true"
+      image: "./assets/SociétéNigérienned'Électricité(NIGELEC).png"
     }
   ];
 

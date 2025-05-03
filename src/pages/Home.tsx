@@ -167,7 +167,7 @@ const Home = () => {
       client: "PME artisanales",
       description: "Création d'une plateforme e-commerce utilisant le machine learning pour recommander des produits aux clients en fonction de leurs préférences, augmentant ainsi les ventes des artisans locaux.",
       results: ["Augmentation de 25% des ventes en ligne", "Amélioration de l'engagement client"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/EcommerceArtisanatNiger.png?raw=true",
+      image: "./assets/EcommerceArtisanatNiger.png",
       category: "Commerce",
       id: "ecommerce-artisanat"
     },
@@ -176,7 +176,7 @@ const Home = () => {
       client: "Petits commerces de détail",
       description: "Mise en place d'un système basé sur l'IA pour prévoir la demande de produits, optimiser les niveaux de stock et réduire les ruptures ou les surplus.",
       results: ["Réduction de 30% des ruptures de stock", "Diminution de 20% des coûts liés au surstockage"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/GestionStockNiger.png?raw=true",
+      image: "./assets/GestionStockNiger.png",
       category: "Commerce",
       id: "gestion-stocks"
     },
@@ -185,7 +185,7 @@ const Home = () => {
       client: "PME locales",
       description: "Développement d'une application mobile permettant aux PME de suivre leurs finances en temps réel, avec des tableaux de bord interactifs et des analyses prédictives pour une meilleure prise de décision.",
       results: ["Amélioration de 40% de la visibilité financière", "Prise de décision accélérée pour les investissements"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/GestionFinancierePME.png?raw=true",
+      image: "./assets/GestionFinancierePME.png",
       category: "Finance",
       id: "gestion-financiere"
     },
@@ -194,7 +194,7 @@ const Home = () => {
       client: "Start-ups de livraison locales",
       description: "Développement d'une application mobile intégrant des algorithmes d'IA pour optimiser les itinéraires de livraison en temps réel, réduire les délais et améliorer la satisfaction client.",
       results: ["Réduction de 20% des temps de livraison", "Augmentation de 15% de la satisfaction client"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/main/assets/OptimisationLivraisonNiger.png?raw=true",
+      image: "./assets/OptimisationLivraisonNiger.png",
       category: "Logistique",
       id: "optimisation-livraison"
     },
@@ -203,7 +203,7 @@ const Home = () => {
       client: "Associations de tontines locales",
       description: "Développement d'une application mobile sécurisée permettant aux membres des tontines de gérer leurs contributions, suivre les cycles de collecte et de distribution des fonds, et recevoir des notifications automatisées.",
       results: ["Augmentation de 30% de la transparence", "Amélioration de l'engagement des membres", "Optimisation des cycles de collecte"],
-      image: "https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/PlateformeTontineNiger.png?raw=true",
+      image: "./assets/PlateformeTontineNiger.png",
       category: "Finance",
       id: "gestion-tontines"
     }
