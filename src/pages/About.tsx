@@ -7,12 +7,12 @@ const About = () => {
 
     {
       name: 'Moussa Kalla',
-      role: 'CEO & Co-Fondateur',
+      role: 'Co-Fondateur',
       currentPosition: 'Data Scientist & ML Engineer chez Saft (TotalEnergies), France',
       education: 'Diplômé en Mathématiques Appliquées et Informatique, Ecole d\'Ingénieurs du Littoral - Côte d\'Opale',
       expertise: ['Data Science', 'Machine Learning', 'IA', 'Modélisation Prédictive', 'Analyse quantitative'],
       bio: "Moussa Kalla est Data Scientist, spécialisé en modélisation prédictive et IA avancée. Actuellement en poste chez Saft, filiale de TotalEnergies en France, il conçoit des solutions basées sur l'IA pour la prise de décision et l'analyse de données, alliant expertise en mathématiques, deep learning et data science.",
-      image: 'https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/Moussa.png?raw=true',
+      image: './assets/Moussa.png',
       linkedin: 'https://linkedin.com/in/moussa-kalla',
       github: 'https://github.com/Moussa-Kalla',
       icon: Brain
@@ -24,7 +24,7 @@ const About = () => {
       education: 'Diplômé en Informatique & Télécommunications, ESM/ESG Groupe Sodesi',
       expertise: ['Développement Web', 'Développement Mobile', 'Ingénierie Réseau', 'Télécommunications'],
       bio: "Moustapha Maman Sani est développeur Web & Mobile et Ingénieur Réseau & Télécom. Ingénieur Superviseur Réseau chez Camusat, il maîtrise l'architecture réseau, le développement logiciel et l'administration système, garantissant des solutions technologiques fiables et évolutives.",
-      image: 'https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/Moustapha.jpeg?raw=true',
+      image: './assets/Moustapha.jpeg',
       linkedin: 'https://linkedin.com/in/moustapha-maman-sani-abdou-19189aa1',
       icon: Network
     },
@@ -35,7 +35,7 @@ const About = () => {
       education: 'Cycle Ingénieur en Informatique, Sup Galilée (Université Sorbonne Paris Nord)',
       expertise: ['Développement Backend', 'DevOps', 'Data Science', 'Machine Learning', 'Business Intelligence'],
       bio: "Ahmed Abdoulahi, ingénieur informatique en fin de cycle, est actuellement développeur backend et DevOps chez Softeam à Nantes. Expert en microservices Spring Boot, Docker et CI/CD, il maîtrise aussi le traitement et la visualisation de données, avec des projets concrets en machine learning et systèmes décisionnels.",
-      image: 'https://github.com/Moussa-Kalla/BayanAI/blob/mk_dev/assets/AhmedABDOULAHI.jpeg?raw=true',
+      image: './assets/AhmedABDOULAHI.jpeg',
       linkedin: 'https://www.linkedin.com/in/ahmed-abdoulahi-34aa10239/',
       github: 'https://github.com/AhmedAbdoulahi',
       icon: Network
