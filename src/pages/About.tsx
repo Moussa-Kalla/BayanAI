@@ -39,6 +39,17 @@ const About = () => {
       linkedin: 'https://www.linkedin.com/in/ahmed-abdoulahi-34aa10239/',
       github: 'https://github.com/AhmedAbdoulahi',
       icon: Network
+    },
+    {
+      name: 'Moussa MOUMOUNI HAMA',
+      role: 'Data Ingénieur – Tech Lead Talend/BI chez CGI',
+      currentPosition: 'Expert en Data & Business Intelligence chez CGI, France',
+      education: "Diplômé en Informatique Décisionnelle (Université UFR-MIM de Lorraine, Metz)",
+      expertise: ['Business Intelligence', 'Big Data', 'Développement Web', 'Télécommunications', 'CISCO'],
+      bio: "Avec plus de 7 ans d'expérience dans le domaine de la data, Moussa MOUMOUNI HAMA est un expert technique de la chaîne décisionnelle, de l'extraction à la visualisation. Certifié Talend Data Integration, il maîtrise les bases Oracle, PostgreSQL, SQL Server, et des outils BI comme PowerBI, SAP BO ou Tableau. Son profil polyvalent inclut également les réseaux IP, les systèmes Télécom, le développement web et l'administration de bases de données.",
+      image: 'https://github.com/Moussa-Kalla/BayanAI/blob/mk_dev/assets/MoussaMoumouni.jpeg?raw=true',
+      linkedin: 'https://linkedin.com/in/moumouni-hama-moussa-613a28b9',
+      icon: Network
     }
   ];
 
@@ -54,12 +65,12 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="flex overflow-x-auto pb-6 mb-16 space-x-8 snap-x snap-mandatory">
           {team.map((member) => (
             <motion.div
               key={member.name}
               whileHover={{ scale: 1.02 }}
-              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden h-full flex flex-col"
+              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden flex-shrink-0 w-full sm:w-96 snap-center"
             >
               <div className="p-8 flex flex-col items-center flex-grow">
                 <div className="relative w-40 h-40 mb-6">
