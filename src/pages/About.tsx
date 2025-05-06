@@ -7,12 +7,12 @@ const About = () => {
 
     {
       name: 'Moussa Kalla',
-      role: 'Co-Fondateur',
+      role: 'CEO & Co-Fondateur',
       currentPosition: 'Data Scientist & ML Engineer chez Saft (TotalEnergies), France',
       education: 'Diplômé en Mathématiques Appliquées et Informatique, Ecole d\'Ingénieurs du Littoral - Côte d\'Opale',
       expertise: ['Data Science', 'Machine Learning', 'IA', 'Modélisation Prédictive', 'Analyse quantitative'],
       bio: "Moussa Kalla est Data Scientist, spécialisé en modélisation prédictive et IA avancée. Actuellement en poste chez Saft, filiale de TotalEnergies en France, il conçoit des solutions basées sur l'IA pour la prise de décision et l'analyse de données, alliant expertise en mathématiques, deep learning et data science.",
-      image: './assets/Moussa.png',
+      image: 'https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/Moussa.png?raw=true',
       linkedin: 'https://linkedin.com/in/moussa-kalla',
       github: 'https://github.com/Moussa-Kalla',
       icon: Brain
@@ -24,7 +24,7 @@ const About = () => {
       education: 'Diplômé en Informatique & Télécommunications, ESM/ESG Groupe Sodesi',
       expertise: ['Développement Web', 'Développement Mobile', 'Ingénierie Réseau', 'Télécommunications'],
       bio: "Moustapha Maman Sani est développeur Web & Mobile et Ingénieur Réseau & Télécom. Ingénieur Superviseur Réseau chez Camusat, il maîtrise l'architecture réseau, le développement logiciel et l'administration système, garantissant des solutions technologiques fiables et évolutives.",
-      image: './assets/Moustapha.jpeg',
+      image: 'https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/Moustapha.jpeg?raw=true',
       linkedin: 'https://linkedin.com/in/moustapha-maman-sani-abdou-19189aa1',
       icon: Network
     },
@@ -35,9 +35,20 @@ const About = () => {
       education: 'Cycle Ingénieur en Informatique, Sup Galilée (Université Sorbonne Paris Nord)',
       expertise: ['Développement Backend', 'DevOps', 'Data Science', 'Machine Learning', 'Business Intelligence'],
       bio: "Ahmed Abdoulahi, ingénieur informatique en fin de cycle, est actuellement développeur backend et DevOps chez Softeam à Nantes. Expert en microservices Spring Boot, Docker et CI/CD, il maîtrise aussi le traitement et la visualisation de données, avec des projets concrets en machine learning et systèmes décisionnels.",
-      image: './assets/AhmedABDOULAHI.jpeg',
+      image: 'https://github.com/Moussa-Kalla/BayanAI/blob/mk_dev/assets/AhmedABDOULAHI.jpeg?raw=true',
       linkedin: 'https://www.linkedin.com/in/ahmed-abdoulahi-34aa10239/',
       github: 'https://github.com/AhmedAbdoulahi',
+      icon: Network
+    },
+    {
+      name: 'Moussa MOUMOUNI HAMA',
+      role: 'Data Ingénieur – Tech Lead Talend/BI chez CGI',
+      currentPosition: 'Expert en Data & Business Intelligence chez CGI, France',
+      education: "Diplômé en Informatique Décisionnelle (Université UFR-MIM de Lorraine, Metz)",
+      expertise: ['Business Intelligence', 'Big Data', 'Développement Web', 'Télécommunications', 'CISCO'],
+      bio: "Avec plus de 7 ans d'expérience dans le domaine de la data, Moussa MOUMOUNI HAMA est un expert technique de la chaîne décisionnelle, de l'extraction à la visualisation. Certifié Talend Data Integration, il maîtrise les bases Oracle, PostgreSQL, SQL Server, et des outils BI comme PowerBI, SAP BO ou Tableau. Son profil polyvalent inclut également les réseaux IP, les systèmes Télécom, le développement web et l'administration de bases de données.",
+      image: 'https://github.com/Moussa-Kalla/BayanAI/blob/mk_dev/assets/MoussaMoumouni.jpeg?raw=true',
+      linkedin: 'https://linkedin.com/in/moumouni-hama-moussa-613a28b9',
       icon: Network
     }
   ];
@@ -54,12 +65,12 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="flex overflow-x-auto pb-6 mb-16 space-x-8 snap-x snap-mandatory">
           {team.map((member) => (
             <motion.div
               key={member.name}
               whileHover={{ scale: 1.02 }}
-              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden h-full flex flex-col"
+              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden flex-shrink-0 w-full sm:w-96 snap-center"
             >
               <div className="p-8 flex flex-col items-center flex-grow">
                 <div className="relative w-40 h-40 mb-6">
