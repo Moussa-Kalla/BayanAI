@@ -4,7 +4,6 @@ import { Github, Linkedin, Network, Code, Database, Brain } from 'lucide-react';
 
 const About = () => {
   const team = [
-
     {
       name: 'Moussa Kalla',
       role: 'CEO & Co-Fondateur',
@@ -52,7 +51,7 @@ const About = () => {
       icon: Network
     }
   ];
-
+  
   return (
     <div className="py-12 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -65,14 +64,15 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex overflow-x-auto pb-6 mb-16 space-x-8 snap-x snap-mandatory">
+        {/* Tous les profils alignés en grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {team.map((member) => (
             <motion.div
               key={member.name}
               whileHover={{ scale: 1.02 }}
-              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden flex-shrink-0 w-full sm:w-96 snap-center"
+              className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden h-full"
             >
-              <div className="p-8 flex flex-col items-center flex-grow">
+              <div className="p-6 flex flex-col items-center h-full">
                 <div className="relative w-40 h-40 mb-6">
                   <img
                     src={member.image}
