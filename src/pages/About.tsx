@@ -41,8 +41,8 @@ const About = () => {
     },
     {
       name: 'Moussa MOUMOUNI HAMA',
-      role: 'Data Ingénieur – Tech Lead Talend/BI chez CGI',
-      currentPosition: 'Expert en Data & Business Intelligence chez CGI, France',
+      role: 'Co-Fondateur',
+      currentPosition: 'Tech Lead Talend/BI chez CGI, Expert en Data & Business Intelligence chez CGI, France',
       education: "Diplômé en Informatique Décisionnelle (Université UFR-MIM de Lorraine, Metz)",
       expertise: ['Business Intelligence', 'Big Data', 'Développement Web', 'Télécommunications', 'CISCO'],
       bio: "Avec plus de 7 ans d'expérience dans le domaine de la data, Moussa MOUMOUNI HAMA est un expert technique de la chaîne décisionnelle, de l'extraction à la visualisation. Certifié Talend Data Integration, il maîtrise les bases Oracle, PostgreSQL, SQL Server, et des outils BI comme PowerBI, SAP BO ou Tableau. Son profil polyvalent inclut également les réseaux IP, les systèmes Télécom, le développement web et l'administration de bases de données.",
@@ -135,7 +135,7 @@ const About = () => {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Notre Histoire</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-4">
-            Fondée par nous trois, BayanAI est née de notre vision commune : démocratiser l'accès à l'intelligence artificielle et aux solutions data-driven pour toutes les entreprises. En combinant nos expertises complémentaires en data science, machine learning, développement web et infrastructure réseau, nous avons créé une entreprise capable de proposer des solutions complètes et innovantes.
+            Fondée par nous quatre, BayanAI est née de notre vision commune : démocratiser l'accès à l'intelligence artificielle et aux solutions data-driven pour toutes les entreprises. En combinant nos expertises complémentaires en data science, machine learning, développement web et infrastructure réseau, nous avons créé une entreprise capable de proposer des solutions complètes et innovantes.
           </p>
           <p className="text-gray-600 dark:text-gray-300">
             Aujourd'hui, BayanAI s'impose comme un acteur clé dans le domaine de l'IA et de la data science, accompagnant les entreprises dans leur transformation numérique grâce à des solutions sur mesure et une expertise approfondie. Notre engagement envers l'innovation et l'excellence technique demeure au cœur de notre mission.
