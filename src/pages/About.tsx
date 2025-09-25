@@ -5,14 +5,14 @@ import { Github, Linkedin, Network, Code, Database, Brain } from 'lucide-react';
 const About = () => {
   const team = [
     {
-      name: 'Moussa Kalla',
+      name: 'Moussa ABDOULAYE',
       role: 'CEO & Co-Fondateur',
       currentPosition: 'Data Scientist & ML Engineer chez Saft (TotalEnergies), France',
       education: 'Diplômé en Mathématiques Appliquées et Informatique, Ecole d\'Ingénieurs du Littoral - Côte d\'Opale',
       expertise: ['Data Science', 'Machine Learning', 'IA', 'Modélisation Prédictive', 'Analyse quantitative'],
       bio: "Moussa Kalla est Data Scientist, spécialisé en modélisation prédictive et IA avancée. Actuellement en poste chez Saft, filiale de TotalEnergies en France, il conçoit des solutions basées sur l'IA pour la prise de décision et l'analyse de données, alliant expertise en mathématiques, deep learning et data science.",
       image: 'https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/Moussa.png?raw=true',
-      linkedin: 'https://linkedin.com/in/moussa-kalla',
+      linkedin: 'www.linkedin.com/in/moussa~abdoulaye',
       github: 'https://github.com/Moussa-Kalla',
       icon: Brain
     },
