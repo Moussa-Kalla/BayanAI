@@ -5,14 +5,14 @@ import { Github, Linkedin, Network, Code, Database, Brain } from 'lucide-react';
 const About = () => {
   const team = [
     {
-      name: 'Moussa Kalla',
+      name: 'Moussa ABDOULAYE',
       role: 'CEO & Co-Fondateur',
       currentPosition: 'Data Scientist & ML Engineer chez Saft (TotalEnergies), France',
       education: 'Diplômé en Mathématiques Appliquées et Informatique, Ecole d\'Ingénieurs du Littoral - Côte d\'Opale',
       expertise: ['Data Science', 'Machine Learning', 'IA', 'Modélisation Prédictive', 'Analyse quantitative'],
       bio: "Moussa Kalla est Data Scientist, spécialisé en modélisation prédictive et IA avancée. Actuellement en poste chez Saft, filiale de TotalEnergies en France, il conçoit des solutions basées sur l'IA pour la prise de décision et l'analyse de données, alliant expertise en mathématiques, deep learning et data science.",
       image: 'https://github.com/Moussa-Kalla/data-ai-factory/blob/mk_dev/assets/Moussa.png?raw=true',
-      linkedin: 'https://linkedin.com/in/moussa-kalla',
+      linkedin: 'www.linkedin.com/in/moussa~abdoulaye',
       github: 'https://github.com/Moussa-Kalla',
       icon: Brain
     },
@@ -124,7 +124,7 @@ const About = () => {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Notre Histoire</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-4">
-            Fondée par nous trois, BayanAI est née de notre vision commune : démocratiser l'accès à l'intelligence artificielle et aux solutions data-driven pour toutes les entreprises. En combinant nos expertises complémentaires en data science, machine learning, développement web et infrastructure réseau, nous avons créé une entreprise capable de proposer des solutions complètes et innovantes.
+            Fondée par nous quatre, BayanAI est née de notre vision commune : démocratiser l'accès à l'intelligence artificielle et aux solutions data-driven pour toutes les entreprises. En combinant nos expertises complémentaires en data science, machine learning, développement web et infrastructure réseau, nous avons créé une entreprise capable de proposer des solutions complètes et innovantes.
           </p>
           <p className="text-gray-600 dark:text-gray-300">
             Aujourd'hui, BayanAI s'impose comme un acteur clé dans le domaine de l'IA et de la data science, accompagnant les entreprises dans leur transformation numérique grâce à des solutions sur mesure et une expertise approfondie. Notre engagement envers l'innovation et l'excellence technique demeure au cœur de notre mission.
